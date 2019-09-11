@@ -113,6 +113,7 @@ x = []
       x << holiday
     end
   end
+  end
   x
 end
 

@@ -92,7 +92,7 @@ def all_supplies_in_holidays(holiday_hash)
         e.join(" ")
       end
       l = x.join(", ")
-      puts "  #{holiday.capitalize}: #{l}"
+      puts "  #{e.capitalize}: #{l}"
     end
   end
 

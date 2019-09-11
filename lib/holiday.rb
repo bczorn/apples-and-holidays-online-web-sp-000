@@ -83,14 +83,14 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, data|
     puts "#{season.capitalize}:"
     data.each do |holiday, x|
-      holiday = holiday.capitalize
+      hol = holiday.capitalize
       if holiday == :new_years
         f = holiday.to_s
         e = f.split"_"
         e.each do |x|
           x.capitalize!
         end
-        holiday = e.join(" ")
+        hol = e.join(" ")
       end
       binding.pry
       l = x.join(", ")

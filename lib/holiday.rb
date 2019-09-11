@@ -90,8 +90,6 @@ def all_supplies_in_holidays(holiday_hash)
         e.each do |x|
           x.capitalize!
         end
-        
-        binding.pry
         holiday = e.join(" ")
       end
       l = x.join(", ")
